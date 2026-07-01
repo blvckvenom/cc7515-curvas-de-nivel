@@ -81,9 +81,9 @@ en una máquina sin sesión gráfica (p.ej. vía `xvfb-run` para usar Mesa por s
 | `R`                | Resetear la cámara                                            |
 | `ESC`              | Salir                                                         |
 
-## Cómo se cumple cada requisito (mapa al enunciado)
+## Features cumplidas
 
-| Requisito del enunciado | Dónde |
+| Feature | Dónde |
 |---|---|
 | Terreno por puntos y triángulos, Z = altura (0–6000 m) | `terrain.h` (grilla triangulada) + `common.glsl` (`terrainHeight`, escalada a metros en la UI) |
 | ≥ 10.000 puntos, función fractal | `GRID_N=160` (25.600 pts) + fBm en `common.glsl` |
